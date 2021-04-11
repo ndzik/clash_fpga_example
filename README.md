@@ -291,7 +291,11 @@ Since the A7-35t is programmable over JTAG I just have to connect the Micro-USB 
 
 With the A7 recognized and connected, simply right-click `xc7a35t_0` in the `Hardware` pane and select `Program device`.
 The bitstream file is located in:
-```$PATHTOVIVADOPROJECT/fpgablinker/fpgablinker.runs/impl_1/helloworld.bit```
+
+```bash
+$PATHTOVIVADOPROJECT/fpgablinker/fpgablinker.runs/impl_1/helloworld.bit
+```
+
 Select it and press on `Program`.
 
 ## Final words
